@@ -1,0 +1,28 @@
+Revision history for Perl extension AnyEvent::HTTP::LWP::Determined::UserAgent
+
+2012.10-09 Yasutaka ATARASHI <yakex@cpan.org>
+    * Forked from LWP::Determined::UserAgent 1.06.
+    * Release 0.01.1.06 - First public release.
+
+Original revision history for Perl extension LWP::Determined::UserAgent
+
+2012.05-20 Jesse Vincent <jesse@cpan.org>
+	* Release 1.06
+	* Mock http responses to avoid unnecessary network requests -- Randy Stauner
+
+2011-01-03 Jesse Vincent <jesse@cpan.org>
+    * Release 1.05
+    * Fix for RT#55591: Incorrect default value for 'codes_to_determinate'
+	  from yibe via github.
+
+2009-04-04 Jesse Vincent <jesse@cpan.org>
+	* Release 1.04 -- Keeping pace with LWP updates
+	* New Maintainer
+	* Resolves [cpan #42123] and [cpan #41508]
+
+
+2004-04-08  Sean M. Burke  sburke@cpan.org
+	* Release 1.03 -- just a doc-typo bugfix version.
+	
+2004-04-07  Sean M. Burke  sburke@cpan.org
+	* Release 1.02 -- First public release.
