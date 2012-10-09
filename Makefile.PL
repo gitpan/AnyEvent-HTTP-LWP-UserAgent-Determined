@@ -21,9 +21,10 @@ my %WriteMakefileArgs = (
   "NAME" => "AnyEvent::HTTP::LWP::UserAgent::Determined",
   "PREREQ_PM" => {
     "AnyEvent::HTTP::LWP::UserAgent" => "0.08",
-    "LWP" => 0
+    "LWP" => 0,
+    "LWP::UserAgent::Determined" => 0
   },
-  "VERSION" => "0.01.1.06",
+  "VERSION" => "0.02.1.06",
   "test" => {
     "TESTS" => "t/*.t"
   }
