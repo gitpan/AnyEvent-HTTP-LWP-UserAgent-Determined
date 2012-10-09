@@ -16,4 +16,4 @@ requires:
   AnyEvent::HTTP::LWP::UserAgent: 0.08
   LWP: 0
   LWP::UserAgent::Determined: 0
-version: 0.02.1.06
+version: v0.03.1.06
