@@ -2,8 +2,9 @@
 package AnyEvent::HTTP::LWP::UserAgent::Determined;
 
 use strict;
+use warnings;
 
-our $VERSION = 'v0.03.1.06'; # VERSION
+our $VERSION = 'v0.04.1.06'; # VERSION
 use      AnyEvent::HTTP::LWP::UserAgent 0.08 ();
 use      LWP::UserAgent::Determined ();
 our (@ISA) = ('AnyEvent::HTTP::LWP::UserAgent', 'LWP::UserAgent::Determined');

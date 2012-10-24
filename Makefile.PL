@@ -2,7 +2,7 @@
 use strict;
 use warnings;
 
-
+use 5.006;
 
 use ExtUtils::MakeMaker 6.30;
 
@@ -24,7 +24,7 @@ my %WriteMakefileArgs = (
     "LWP" => 0,
     "LWP::UserAgent::Determined" => 0
   },
-  "VERSION" => "v0.03.1.06",
+  "VERSION" => "v0.04.1.06",
   "test" => {
     "TESTS" => "t/*.t"
   }
