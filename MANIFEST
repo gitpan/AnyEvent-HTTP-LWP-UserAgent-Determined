@@ -1,4 +1,4 @@
-ChangeLog
+Changes
 LICENSE
 MANIFEST
 META.yml
@@ -13,3 +13,4 @@ t/author-critic.t
 t/release-kwalitee.t
 t/release-pod-coverage.t
 t/release-pod-syntax.t
+weaver.ini

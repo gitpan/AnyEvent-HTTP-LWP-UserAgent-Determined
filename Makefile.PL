@@ -11,7 +11,10 @@ use ExtUtils::MakeMaker 6.30;
 my %WriteMakefileArgs = (
   "ABSTRACT" => "a virtual browser that retries errors with AnyEvent",
   "AUTHOR" => "Yasutaka ATARASHI <yakex\@cpan.org>",
-  "BUILD_REQUIRES" => {},
+  "BUILD_REQUIRES" => {
+    "HTTP::Server::Simple::CGI" => 0,
+    "Test::TCP" => 0
+  },
   "CONFIGURE_REQUIRES" => {
     "ExtUtils::MakeMaker" => "6.30"
   },
@@ -24,7 +27,7 @@ my %WriteMakefileArgs = (
     "LWP" => 0,
     "LWP::UserAgent::Determined" => 0
   },
-  "VERSION" => "v0.04.1.06",
+  "VERSION" => "v0.05.1.06",
   "test" => {
     "TESTS" => "t/*.t"
   }
